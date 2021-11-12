@@ -26,6 +26,8 @@
 	    marker1.bindPopup("<img style='width: 200px' src='Engineering.jpg'><p><b>C Block</b></p><br>Engineering");
 	    //marker.bindPopup("<b>C Block</b><br>T-Level Digital").openPopup();
 	    
+	    var polygon = L.polygon([51.130697, -2.731229], [51.130946, -2.732259], [51.130811, -2.732527], [51.130919, -2.733804], [51.13063, -2.734383], [51.129007, -2.733128], [51.128563, -2.731755], [51.128926, -2.731433], [51.128751, -2.730854], [51.129923, -2.730811], [51.129936, -2.731304]).addTo(mymap);
+	    
 	    mymap.addControl(new L.Control.Fullscreen());
     </script>
   </body>    
